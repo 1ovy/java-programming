@@ -2,7 +2,7 @@ public class test2{
     public static void main(String[] args) {
         int day=100;
         int week=7;
-        int r=2;
+        int r=day%week;
         int m=(r+day)%week;
         if(m==0)
             System.out.println("Sunday");
